@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IQ4-Eu-WNR">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IQ4-Eu-WNR" customClass="DrawingImageView" customModule="BrainTraining" customModuleProvider="target">
                                 <rect key="frame" x="16" y="348" width="343" height="303"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
@@ -62,6 +62,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="tfe-iI-kgL"/>
+                    <connections>
+                        <outlet property="drawView" destination="IQ4-Eu-WNR" id="UE6-Us-PG1"/>
+                        <outlet property="tableView" destination="IsE-5l-XH0" id="sNK-fM-jDw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -12,6 +12,7 @@
 		AC1B957C21AF7E4F0034886F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1B957A21AF7E4F0034886F /* Main.storyboard */; };
 		AC1B957E21AF7E500034886F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC1B957D21AF7E500034886F /* Assets.xcassets */; };
 		AC1B958121AF7E500034886F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC1B957F21AF7E500034886F /* LaunchScreen.storyboard */; };
+		AC8E6A8E21B5FC5A00F535F4 /* DrawingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8E6A8D21B5FC5A00F535F4 /* DrawingImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AC1B957D21AF7E500034886F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC1B958021AF7E500034886F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC1B958221AF7E500034886F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC8E6A8D21B5FC5A00F535F4 /* DrawingImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				AC1B957621AF7E4F0034886F /* AppDelegate.swift */,
 				AC1B957821AF7E4F0034886F /* ViewController.swift */,
 				AC1B957A21AF7E4F0034886F /* Main.storyboard */,
+				AC8E6A8D21B5FC5A00F535F4 /* DrawingImageView.swift */,
 				AC1B957D21AF7E500034886F /* Assets.xcassets */,
 				AC1B957F21AF7E500034886F /* LaunchScreen.storyboard */,
 				AC1B958221AF7E500034886F /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				AC1B957921AF7E4F0034886F /* ViewController.swift in Sources */,
 				AC1B957721AF7E4F0034886F /* AppDelegate.swift in Sources */,
+				AC8E6A8E21B5FC5A00F535F4 /* DrawingImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
